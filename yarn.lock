@@ -4932,7 +4932,7 @@ __metadata:
     remark-admonitions: 1.2.1
     shiki: 0.9.11
     strict-npm-engines: 0.0.1
-    tsup: 4.14.0
+    tsup: 5.4.0
     typescript: 4.3.5
     wait-on: 6.0.0
   languageName: unknown
@@ -25112,9 +25112,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"sucrase@npm:^3.18.1":
-  version: 3.20.1
-  resolution: "sucrase@npm:3.20.1"
+"sucrase@npm:^3.20.1":
+  version: 3.20.2
+  resolution: "sucrase@npm:3.20.2"
   dependencies:
     commander: ^4.0.0
     glob: 7.1.6
@@ -25125,7 +25125,7 @@ fsevents@^1.2.7:
   bin:
     sucrase: bin/sucrase
     sucrase-node: bin/sucrase-node
-  checksum: 5bb436a3d2d9518e891c15da92bb9516ea05797549872ee4686ec4fc8dc25b600b269edc59f334c70f52421f48e67d96498d3b17ca99b568d5aa5c56bf48d971
+  checksum: 1c5a5bd45148e73333e433098988251c3572ec10e0848824d675cfcce8cb02d055ec956fcd66771f321f50178222642fcd8f4a13a09ddfad6dff704867e71993
   languageName: node
   linkType: hard
 
@@ -26133,22 +26133,22 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"tsup@npm:4.14.0":
-  version: 4.14.0
-  resolution: "tsup@npm:4.14.0"
+"tsup@npm:5.4.0":
+  version: 5.4.0
+  resolution: "tsup@npm:5.4.0"
   dependencies:
     cac: ^6.7.2
     chalk: ^4.1.0
     chokidar: ^3.5.1
     debug: ^4.3.1
-    esbuild: ^0.12.9
+    esbuild: ^0.13.4
     execa: ^5.0.0
     globby: ^11.0.3
     joycon: ^3.0.1
     postcss-load-config: ^3.0.1
     resolve-from: ^5.0.0
     rollup: ^2.56.1
-    sucrase: ^3.18.1
+    sucrase: ^3.20.1
     tree-kill: ^1.2.2
   peerDependencies:
     typescript: ^4.2.3
@@ -26158,7 +26158,7 @@ fsevents@^1.2.7:
   bin:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
-  checksum: 44756ed160a872744773c2607af0dbfc429f642b85ff08d0dc246eec67dc50e57dabf544a283ec19ef17a6b49c5588d6cf5c5c720a642aeab141c4cff1a8b7e1
+  checksum: d903fc11c4c0b4638c3981b4d4e1a8f49e36473ffeb57aae2502f3e7fa5ff11f6668095607599fae7a2319fd77eaacf42a6f8a33c1fe5129e4ea30443bfcb874
   languageName: node
   linkType: hard
 
