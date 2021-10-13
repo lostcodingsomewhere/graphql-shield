@@ -4910,7 +4910,7 @@ __metadata:
     "@guild-docs/client": 1.0.6
     "@guild-docs/server": 1.0.6
     "@mdx-js/react": 1.6.22
-    "@theguild/components": 1.4.8
+    "@theguild/components": 1.6.0
     "@types/concurrently": 6.2.1
     "@types/fs-extra": 9.0.13
     "@types/mdx-js__react": 1.5.4
@@ -5018,15 +5018,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@theguild/components@npm:1.4.8":
-  version: 1.4.8
-  resolution: "@theguild/components@npm:1.4.8"
+"@theguild/components@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@theguild/components@npm:1.6.0"
   dependencies:
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     algoliasearch: ^4.9.1
     core-js: ^3.14.0
-    focus-trap-react: ^8.5.0
+    focus-trap-react: 8.7.1
     polished: ^4.1.3
     react-instantsearch-dom: ^6.11.0
     react-paginate: ^7.1.3
@@ -5038,7 +5038,7 @@ __metadata:
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: f87847e99053c8faeb3989edc13004f0a9ffab65216e640056f182dd808e1c0104fe781103dd27a3b3cfe6873b9203dd7a7b688a1a9df5f05d66739ccb893cb3
+  checksum: eac594adaaa56d302c008a9fb92b4f5099672b642241f7a2a1558ecf99392cc2e656b8bf5c08abb142c29aa3a83602d052aa393451c3dd5582c9b8637d06e0c5
   languageName: node
   linkType: hard
 
@@ -12800,7 +12800,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"focus-trap-react@npm:^8.5.0":
+"focus-trap-react@npm:8.7.1":
   version: 8.7.1
   resolution: "focus-trap-react@npm:8.7.1"
   dependencies:
