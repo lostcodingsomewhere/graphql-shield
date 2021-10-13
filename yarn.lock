@@ -2997,17 +2997,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/batch-execute@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@graphql-tools/batch-execute@npm:8.1.0"
+"@graphql-tools/batch-execute@npm:^8.1.1":
+  version: 8.1.1
+  resolution: "@graphql-tools/batch-execute@npm:8.1.1"
   dependencies:
-    "@graphql-tools/utils": ^8.2.0
+    "@graphql-tools/utils": ^8.2.4
     dataloader: 2.0.0
     tslib: ~2.3.0
     value-or-promise: 1.0.10
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: c19fad17c9ff672e8b2f7b2a999479cc99e5b5773fb0eb33a9a27245fd32fc4d9a9c8444ccca4ca85a3265f3c6cdc571be0009706d85b193a9f70b9718a138f6
+  checksum: b1c7a62a582d7f88ca2325b559ed87f05a13930aa80a35f3bff38dd2ec672256bbac511da39e2e402f03ebeae7e314fc5fe2485932617cd5466cd16b17ab5d96
   languageName: node
   linkType: hard
 
@@ -3041,19 +3041,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-tools/delegate@npm:^8.2.1":
-  version: 8.2.1
-  resolution: "@graphql-tools/delegate@npm:8.2.1"
+"@graphql-tools/delegate@npm:^8.2.3":
+  version: 8.2.3
+  resolution: "@graphql-tools/delegate@npm:8.2.3"
   dependencies:
-    "@graphql-tools/batch-execute": ^8.1.0
+    "@graphql-tools/batch-execute": ^8.1.1
     "@graphql-tools/schema": ^8.2.0
-    "@graphql-tools/utils": ^8.2.0
+    "@graphql-tools/utils": ^8.3.0
     dataloader: 2.0.0
     tslib: ~2.3.0
-    value-or-promise: 1.0.10
+    value-or-promise: 1.0.11
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 68665e1a15ad17f981c14c5be2642d49ff60a4ff346e01ce26987f1260a1bb3a4afcf4a401f100155698f146cfd91198e3452722446b12a53c76c39dfff5dd6d
+  checksum: 43ac4dc1fde4359223009f4abca4d86c965d3c41c18cae611b223d7f782b68d387f93100adedc42cce3472ee740b7189f67f19399000b70d633ba6b01082a618
   languageName: node
   linkType: hard
 
@@ -3416,6 +3416,17 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
   checksum: 360a10e028321d857eb770a057f652fbcb207075629783bcde175e2e1c8578a6e96e9eb5ef814f47a9cc2774ef9af6f0c51d55ba489c4bf9f12b41e118dcb508
+  languageName: node
+  linkType: hard
+
+"@graphql-tools/utils@npm:^8.2.4, @graphql-tools/utils@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "@graphql-tools/utils@npm:8.3.0"
+  dependencies:
+    tslib: ~2.3.0
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 8f142824762a4b2bf171c0a7e2471404a5482ad9b6f5d4fd00b949f3c216483b2f021c23b3fad8bb0114abdd5b1b635bacaae08d480bebf12147f3dd181a55f2
   languageName: node
   linkType: hard
 
@@ -13886,15 +13897,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"graphql-middleware@npm:6.1.6":
-  version: 6.1.6
-  resolution: "graphql-middleware@npm:6.1.6"
+"graphql-middleware@npm:6.1.8":
+  version: 6.1.8
+  resolution: "graphql-middleware@npm:6.1.8"
   dependencies:
-    "@graphql-tools/delegate": ^8.2.1
+    "@graphql-tools/delegate": ^8.2.3
     "@graphql-tools/schema": ^8.2.0
   peerDependencies:
     graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
-  checksum: 26e7f6dcece99d4738781f5b3df1791f22d9fc30ef248a00f5cf27b6457d71a5d1443322e9201b25a573fe8283cb635f17e9c1c4f1ea8d1525e33d4be32c4f50
+  checksum: db017ea1a80d67757507e9bb8ca934a07a7273e15d227bf907ed2e5abe4eaf3f3cbf08459a2ae34fc02acf387918ff857d8eda108753570a8f63ef26f3c8892d
   languageName: node
   linkType: hard
 
@@ -14045,7 +14056,7 @@ fsevents@^1.2.7:
     "@types/yup": 0.29.13
     apollo-server: 2.25.2
     graphql: 15.6.0
-    graphql-middleware: 6.1.6
+    graphql-middleware: 6.1.8
     graphql-shield-rules: 0.0.1
     graphql-tools: 7.0.5
     object-hash: ^2.0.3
@@ -27170,6 +27181,13 @@ typescript@4.3.5:
   version: 1.0.10
   resolution: "value-or-promise@npm:1.0.10"
   checksum: 381d254e1bf6e4b56a1512591664c88989e2fc584ac939e3164ba92055f078862e1b7dd8d0bed33d7772e16ac7ff14d521bd06fa7fd6468305132cb8958daf4c
+  languageName: node
+  linkType: hard
+
+"value-or-promise@npm:1.0.11":
+  version: 1.0.11
+  resolution: "value-or-promise@npm:1.0.11"
+  checksum: a1d5b5f3233d4f417c9846dd76279b9b4f2b1b5af6f57c2c264b6a9ee3fa0eca5979e955847aa8a8361fdbcd5a4dc3bcc594a5ff463279b1e17d7bae3d95a6fb
   languageName: node
   linkType: hard
 
